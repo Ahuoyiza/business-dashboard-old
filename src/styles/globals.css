@@ -1,0 +1,46 @@
+@tailwind base;
+
+@tailwind components;
+
+@layer components {
+  .daabo-primary-button {
+    @apply ripple-button cursor-pointer rounded-lg bg-daabo-primary py-3 px-4 text-xs font-medium text-daabo-white shadow-[0px_2px_5px_0px_#00000040] transition-opacity hover:opacity-90 md:px-8;
+  }
+
+  .daabo-secondary-button {
+    @apply rounded-lg border border-daabo-primary py-3 px-4 text-center text-xs font-medium text-daabo-primary transition-colors hover:bg-daabo-primary hover:text-daabo-white md:px-5;
+  }
+
+  .section-heading {
+    @apply text-lg font-semibold;
+  }
+
+  .section-sub-heading {
+    @apply text-xs text-daabo-grey;
+  }
+
+  .daabo-form-input {
+    @apply h-[50px] w-[280px] rounded-[7px] border-2 border-daabo-light-grey bg-white pl-3 pr-7 text-[13px] placeholder-daabo-grey outline-none transition-all duration-100 ease-in focus:border-daabo-primary sm:w-[396px];
+  }
+}
+
+@tailwind utilities;
+
+/* ripple effect for daabo buttons */
+.ripple-button {
+  background-position: center;
+  transition: background 0.8s;
+}
+.ripple-button:hover {
+  background: #6b53e5 radial-gradient(circle, transparent 1%, #6b53e5 1%) center/15000%;
+}
+.ripple-button:active {
+  background-color: #7d65f5;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+/* remove blue tap highlight on mobile devices */
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}

@@ -1,0 +1,28 @@
+const routes = {
+  LANDING_PAGE: 'https://getdaabo.com.ng',
+  LOGIN: '/login',
+  HELP_SUPPORT: 'https://intercom.help/daabo/en',
+  SPREAD: 'https://getdaabo.com.ng',
+  ABOUT: 'https://www.getdaabo.com.ng/about/company',
+  PRIVACY_POLICY: 'https://www.getdaabo.com.ng/privacy-policy',
+  TERMS_OF_SERVICE: 'https://www.getdaabo.com.ng/terms-of-service',
+  RESET_PASSWORD: '/reset_password',
+  RESET_PASSWORD_VERIFICATION: '/reset_password_verifiaction',
+  RESET_PASSWORD_SUCCESSFUL: '/reset_password_successful',
+  EMAIL_SENT: '/email_sent',
+  EMAIL_VERIFICATION_NOTIFICATION: '/email_verification_notification',
+  CREATE_PASSWORD: '/create_password',
+  DASHBOARD: '/',
+  DEVICES: '/devices',
+  PAYMENTS: '/payments',
+  API_INTEGRATIONS: '/apis-integrations',
+  API_INTEGRATIONS_DEVICES: '/apis-integrations/devices',
+  AUDIT_LOGS: '/apis-integrations/audit-logs',
+  CLAIMS_REPAIRS: '/claims-repairs',
+  ACCOUNT_SETTINGS: '/account-settings',
+  ADD_DEVICE: '/add-device',
+  LOGIN_ACTIVITY: '/account-settings?tab=settings',
+  API_KEYS: '/apis-integrations/api-keys',
+} as const;
+
+export default routes;

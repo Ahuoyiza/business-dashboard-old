@@ -1,0 +1,5 @@
+user_fullname,user_phone_number,user_email,device_type,brand,device_model,imei_number,date_purchased,device_condition,cost_of_device,ram,motherboard
+John Doe,+2348134566935,jd16@gmail.com,mobile_phone,Samsung,S22,122413445835924,2022-01-20,This device is in good conditions.,400000,12,Qualcomm
+Jane Doe,+2348134565935,djane@gmail.com,desktop_computer,HP,Pavilion,122413445835922,2021-04-22,The touchpad has some issue. Every other thing is good.,200000,16,Intel
+Junior Doe,+2348134563935,juniord@gmail.com,laptop,Asus,Zenbook,122413445835925,2021-02-12,It's all good,300000,32,ARM
+Juliet Doe,+2348134561935,djul@gmail.com,tablet,Apple,iPad,122413445835920,2022-04-05,It's in good condition.,250000,8,M1
