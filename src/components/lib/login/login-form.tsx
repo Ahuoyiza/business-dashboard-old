@@ -5,7 +5,7 @@ import routes from 'routes';
 import { useRouter } from 'next/router';
 import { toast } from 'react-toastify';
 import EmailField from 'components/lib/forms/email-field';
-import { useAuth } from '../auth';
+//import { useAuth } from '../auth';
 import Button from 'components/lib/button';
 
 interface Inputs {
