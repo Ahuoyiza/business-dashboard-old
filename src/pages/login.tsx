@@ -11,7 +11,7 @@ const Login: NextPageWithLayoutProps = () => {
       <div className="flex flex-col bg-daabo-white pt-[40px] pb-[40px]">
         <AuthIcon />
         <div className="mt-8 text-center">
-          <p className="text-[21px]">Amazing!</p>
+          
           <h1 className="mx-auto mt-[13px] w-[250px] text-[18px] font-semibold text-daabo-grey sm:mx-0 sm:w-full sm:text-[21px]">
             Enter your account details to log in
           </h1>
