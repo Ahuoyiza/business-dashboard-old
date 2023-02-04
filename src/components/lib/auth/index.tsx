@@ -3,7 +3,7 @@ import AuthActionContext, { TAuthAction } from './auth-action-context';
 import { FC, ReactNode, useEffect, useState } from 'react';
 import { Business } from './types';
 import { getBusinessInfo } from 'lib/requests';
-//import { loginWithEmail } from 'lib/requests/auth';
+import { loginWithEmail } from 'lib/requests/auth';
 
 type AuthProviderProps = {
   children: ReactNode;
