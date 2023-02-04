@@ -1,4 +1,4 @@
-//import AuthNavigation from 'components/lib/forms/auth-navigation';
+import AuthNavigation from 'components/lib/forms/auth-navigation';
 import BusinessLoginForm from 'components/lib/login/login-form';
 import AuthIcon from 'components/lib/forms/auth-icon';
 import Seo from 'lib/seo';
