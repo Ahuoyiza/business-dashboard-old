@@ -59,7 +59,7 @@ const StepTwoForm: FC = () => {
           reactHookOptions={{
             register: register,
             options: {
-              required: true,
+              required: false,
             },
             error: errors.businessTypeId,
           }}
