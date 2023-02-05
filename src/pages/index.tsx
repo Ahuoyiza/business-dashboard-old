@@ -123,7 +123,7 @@ const BusinessDashboard: NextPageWithLayoutProps = () => {
 };
 
 BusinessDashboard.layoutProps = {
-  isAuthenticated: true,
+  isAuthenticated: false,
 };
 
 export default BusinessDashboard;

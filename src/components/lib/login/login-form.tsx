@@ -89,7 +89,8 @@ const LoginForm: React.FC = () => {
           <Button
             type="submit"
             className="h-[2.813rem] w-[10.938rem] text-[15px]"
-            loading={isLoggingIn}
+            // loading={isLoggingIn}
+            href = {routes.DASHBOARD}
           >
             Log in
           </Button>
