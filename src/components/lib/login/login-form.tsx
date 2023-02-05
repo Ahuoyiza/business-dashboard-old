@@ -86,14 +86,14 @@ const LoginForm: React.FC = () => {
           </Link>
         </div>
         <div className="mt-[47px] self-center text-center">
-          <Button
-            type="submit"
+          <Link
+            // type="submit"
             className="h-[2.813rem] w-[10.938rem] text-[15px]"
             // loading={isLoggingIn}
             href = {routes.DASHBOARD}
           >
             Log in
-          </Button>
+          </Link>
         </div>
       </form>
       <div className="my-10 text-center">
